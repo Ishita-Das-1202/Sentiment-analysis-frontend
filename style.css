@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .review-input {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .review-field {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  button#add-review {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button#analyze {
+    background-color: #008cba;
+    color: white;
+  }
+  
+  button#reset {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button.remove-review {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .emoji {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  .emoji.smile {
+    color: #4caf50;
+  }
+  
+  .emoji.sad {
+    color: #f44336;
+  }
+  
